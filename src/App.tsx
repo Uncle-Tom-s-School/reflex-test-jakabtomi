@@ -13,7 +13,7 @@ const App = () => {
 
     useEffect(() => {
       const id = setInterval(() => {
-        if () {
+        if (id) {
         }
       });
     startGame();
