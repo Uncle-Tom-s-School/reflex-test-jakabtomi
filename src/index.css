@@ -1,13 +1,48 @@
-*{
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-#root{
-  width: 100%;
-  min-height: 100vh;
+.container {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.box {
+  width: 500px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
+}
+
+.yellow {
+  background-color: lightyellow;
+  border: 2px solid #000;
+}
+
+.green {
+  background-color: lightgreen;
+  border: 2px solid #000;
+}
+
+.blue {
+  background-color: lightblue;
+  border: 2px solid #000;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  background: #f3d86b;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
 }
